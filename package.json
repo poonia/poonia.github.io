@@ -1,29 +1,23 @@
 {
     "name": "github-profile",
     "version": "1.0.0",
-    "description": "Github profile information.",
+    "description": "Create your personal page using github profile information.",
     "main": "src/index.js",
     "scripts": {
         "start": "parcel src/index.html",
-        "build": "parcel build src/index.html",
-        "predeploy": "rm -rf dist && parcel build src/index.html --no-source-maps --public-url ./",
-        "deploy": "gh-pages -d dist"
+        "build": "parcel build src/index.html"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/poonia/poonia.github.io.git"
+        "url": "git+https://github.com/poonia/github-profile.git"
     },
-    "keywords": [
-        "github-profile",
-        "personal-website",
-        "gh-profile"
-    ],
+    "keywords": ["github-profile", "personal-website", "gh-profile"],
     "author": "Praveen Poonia",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/poonia/poonia.github.io/issues"
+        "url": "https://github.com/poonia/github-profile/issues"
     },
-    "homepage": "https://github.com/poonia/poonia.github.io#readme",
+    "homepage": "https://github.com/poonia/github-profile#readme",
     "dependencies": {
         "components": "^0.1.0",
         "react": "^16.8.4",
@@ -34,7 +28,6 @@
         "@babel/plugin-proposal-class-properties": "^7.3.4",
         "@babel/preset-env": "^7.3.4",
         "@babel/preset-react": "^7.0.0",
-        "gh-pages": "^2.0.1",
         "parcel-bundler": "^1.12.2",
         "sass": "^1.17.3"
     }
